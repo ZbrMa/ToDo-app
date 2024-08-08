@@ -1,0 +1,29 @@
+.form {
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    gap: 8px;
+    text-align:left;
+}
+
+.form label{
+    font-size: 1rem;
+    padding: 8px 0;
+}
+
+.form-btns {
+    margin-top: 16px;
+    grid-column: 1 / span 2;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.form .checkbox {
+    margin: auto 0;
+}
+
+@media only screen and (min-width:768px){
+    .form label{
+        font-size: 1.2rem;
+    }
+}

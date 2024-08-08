@@ -7,7 +7,55 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.body-shadow {
+  background-color: var(--background);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+:root {
+  --primary:rgb(39, 39, 39);
+  --primaryHover:black;
+  --secondary:rgb(59, 59, 59);
+  --primaryBorder:black;
+  --gray:rgb(150, 150, 150);
+  --grayHover:white;
+  --background:rgb(45 44 49);
+}
+
+.page {
+  text-align: center;
+    max-width: 960px;
+    margin: auto;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(50, 50, 50, 0.1);
+  border-radius: 4px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--gray);
 }

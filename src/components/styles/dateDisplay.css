@@ -1,0 +1,42 @@
+.date-container {
+    display: flex;
+    gap: 16px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.date-info {
+    color: white;
+}
+
+.date-day {
+    font-size: 2.2rem;
+}
+
+.date-my {
+    display: flex;
+    font-size: 1rem;
+    gap: 1rem;
+}
+
+.date-day-text, .date-month, .date-year {
+    color: var(--gray);
+}
+
+.date-day-text {
+    font-size: 1.2rem;
+}
+
+@media only screen and (min-width:768px){
+    .date-day-text {
+        font-size: 1.4rem;
+    }
+
+    .date-day {
+        font-size: 2.6rem;
+    }
+
+    .date-my {
+        font-size: 1.2rem;
+    }
+}

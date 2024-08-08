@@ -1,0 +1,13 @@
+.filter-btns {
+    display: flex;
+    gap: 8px;
+    margin: 16px auto;
+    max-width: 90%;
+    justify-content: center;
+}
+
+@media only screen and (min-width:768px){
+    .filter-btns {
+        width: 50%;
+    }
+}
