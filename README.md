@@ -21,8 +21,7 @@ For adding new event on certain date user just enter task name into input and cl
 
 ## Installation 
 1. Clone gitHub repository ```git clone https://github.com/ZbrMa/toDo-app.git ```
-2. Navigate to app folder ```cd todo-app```
-3. Install dependencies ```npm install```
-4. Run ```npm start```
+2. Install dependencies ```npm install```
+3. Run ```npm start```
 
 
